@@ -1,0 +1,182 @@
+/* General Reset */
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* Body Styles */
+body {
+    /* background-image: url(../img/bg01.jpg); */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+/* Full Height Section */
+.full-height {
+    background: white;
+    background-attachment: fixed;
+    max-height: 100vh;
+    height: 100vh;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    padding-top: 5px;
+}
+
+/* Text Styles */
+.heading-text {
+    color: rgb(0, 0, 0);
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 63px;
+    margin-top: 15%;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+.sub-text2 {
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 0;
+}
+
+/* Logo Styles */
+.hospital-logo {
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+}
+
+.edoc-logo {
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 20px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.edoc-logo-sub {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 12px;
+}
+
+/* Navigation Item Styles */
+.nav-item {
+    color: rgba(0, 0, 0, 0.671);
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+.nav-item:hover {
+    color: #f0f0f0;
+}
+
+/* Register Button Styles */
+.register-btn {
+    background-color: rgba(240, 248, 255, 0.589);
+    color: #345cc4;
+}
+
+/* Footer Styles */
+.footer-hashen {
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    font-size: 13px;
+    animation: transitionIn-Y-over 0.5s;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 1200px) {
+    .heading-text {
+        font-size: 36px;
+        line-height: 54px;
+    }
+
+    .sub-text2 {
+        font-size: 16px;
+    }
+
+    .hospital-logo {
+        width: 12%;
+    }
+}
+
+@media (max-width: 992px) {
+    .heading-text {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .sub-text2 {
+        font-size: 15px;
+    }
+
+    .hospital-logo {
+        width: 15%;
+    }
+}
+
+@media (max-width: 768px) {
+    .heading-text {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .sub-text2 {
+        font-size: 14px;
+    }
+
+    .hospital-logo {
+        width: 20%;
+    }
+}
+
+@media (max-width: 576px) {
+    .heading-text {
+        font-size: 24px;
+        line-height: 36px;
+        margin-top: 20%;
+    }
+
+    .sub-text2 {
+        font-size: 13px;
+    }
+
+    .hospital-logo {
+        width: 30%;
+    }
+
+    .footer-hashen {
+        left: 40%;
+    }
+}
+
+@media (max-width: 400px) {
+    .heading-text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 25%;
+    }
+
+    .sub-text2 {
+        font-size: 12px;
+    }
+
+    .hospital-logo {
+        width: 40%;
+    }
+
+    .footer-hashen {
+        left: 35%;
+    }
+}
